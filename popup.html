@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Confluence Theme</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="3" />
+          <path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83" />
+        </svg>
+      </div>
+      <div class="header-text">
+        <div class="header-title">Confluence Theme</div>
+        <div class="header-subtitle">Color themes &amp; fonts for Confluence</div>
+      </div>
+      <div class="header-toggle">
+        <label class="toggle-switch" title="Enable / Disable">
+          <input type="checkbox" id="toggleEnabled" />
+          <div class="toggle-track"></div>
+          <div class="toggle-thumb"></div>
+        </label>
+      </div>
+    </header>
+
+    <div class="divider"></div>
+
+    <!-- Sites -->
+    <section class="section">
+      <div class="section-title">Sites</div>
+      <div class="sites-list" id="sitesList">
+        <div class="sites-empty">No sites added yet</div>
+      </div>
+      <div class="add-site-area">
+        <button class="btn-add-site" id="btnAddSite" title="Add current site">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+          </svg>
+          <span id="btnAddSiteLabel">Add current site</span>
+        </button>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- Color Theme -->
+    <section class="section">
+      <div class="section-title">Color Theme</div>
+      <div class="themes-grid" id="themesGrid"></div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- Typography -->
+    <section class="section">
+      <div class="section-title">Typography</div>
+      <div class="fonts-display">
+        <div class="font-row">
+          <span class="font-role">Body</span>
+          <span class="font-name">Pretendard</span>
+          <span class="font-sample">가나다라 Aa</span>
+        </div>
+        <div class="font-row">
+          <span class="font-role">Code</span>
+          <span class="font-name mono">JetBrains Mono</span>
+          <span class="font-sample mono">const x = 0</span>
+        </div>
+      </div>
+    </section>
+
+    <script src="themes.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

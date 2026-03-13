@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a90e2"/>
+      <stop offset="100%" stop-color="#7b5ea7"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded square background -->
+  <rect width="128" height="128" rx="28" fill="url(#bg)"/>
+  <!-- Sun/theme icon -->
+  <circle cx="64" cy="64" r="16" fill="white"/>
+  <line x1="64" y1="24" x2="64" y2="36" stroke="white" stroke-width="6" stroke-linecap="round"/>
+  <line x1="64" y1="92" x2="64" y2="104" stroke="white" stroke-width="6" stroke-linecap="round"/>
+  <line x1="24" y1="64" x2="36" y2="64" stroke="white" stroke-width="6" stroke-linecap="round"/>
+  <line x1="92" y1="64" x2="104" y2="64" stroke="white" stroke-width="6" stroke-linecap="round"/>
+  <line x1="36.7" y1="36.7" x2="45.2" y2="45.2" stroke="white" stroke-width="6" stroke-linecap="round"/>
+  <line x1="82.8" y1="82.8" x2="91.3" y2="91.3" stroke="white" stroke-width="6" stroke-linecap="round"/>
+  <line x1="91.3" y1="36.7" x2="82.8" y2="45.2" stroke="white" stroke-width="6" stroke-linecap="round"/>
+  <line x1="45.2" y1="82.8" x2="36.7" y2="91.3" stroke="white" stroke-width="6" stroke-linecap="round"/>
+</svg>
